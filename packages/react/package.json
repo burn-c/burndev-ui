@@ -1,4 +1,16 @@
 {
-  "name": "react",
-  "packageManager": "yarn@3.6.4"
+  "name": "@burndev-ui/react",
+  "packageManager": "yarn@3.6.4",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "devDependencies": {
+    "@burndev-ui/tokens": "*",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
 }
