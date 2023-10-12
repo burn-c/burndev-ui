@@ -9,6 +9,10 @@
   version "1.0.0"
   resolved "file:packages/tokens"
 
+"@burndev-ui/ts-config@*", "@burndev-ui/ts-config@file:/Users/BurnDev/projects/Ignite2023/05-design-system/packages/ts-config":
+  version "1.0.0"
+  resolved "file:packages/ts-config"
+
 "@esbuild/darwin-arm64@0.18.20":
   version "0.18.20"
   resolved "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.18.20.tgz"

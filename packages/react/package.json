@@ -8,7 +8,9 @@
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
+  "license": "MIT",
   "devDependencies": {
+    "@burndev-ui/ts-config": "*",
     "@burndev-ui/tokens": "*",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
