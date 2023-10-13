@@ -5,15 +5,18 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --watch",
     "lint": "eslint src/**/*.ts* --fix"
   },
   "license": "MIT",
   "devDependencies": {
-    "@burndev-ui/ts-config": "*",
-    "@burndev-ui/tokens": "*",
     "@burndev-ui/eslint-config": "*",
+    "@burndev-ui/tokens": "*",
+    "@burndev-ui/ts-config": "*",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "react": "^18.2.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
