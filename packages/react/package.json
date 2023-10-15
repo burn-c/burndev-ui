@@ -1,6 +1,5 @@
 {
   "name": "@burndev-ui/react",
-  "packageManager": "yarn@3.6.4",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -12,7 +11,6 @@
   "license": "MIT",
   "devDependencies": {
     "@burndev-ui/eslint-config": "*",
-    "@burndev-ui/tokens": "*",
     "@burndev-ui/ts-config": "*",
     "@types/react": "^18.2.28",
     "@types/react-dom": "^18.2.13",
@@ -21,6 +19,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@burndev-ui/tokens": "*",
     "@stitches/react": "^1.2.8"
   }
 }
