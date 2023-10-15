@@ -2,7 +2,7 @@ import { Button, ButtonProps } from '@burndev-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
 } as Meta
 
