@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 .turbo
+build/**
+dist/**
+.next/**
 
 # Editor directories and files
 .vscode/*
