@@ -1,0 +1,2 @@
+import{A as t}from"./index.b46625a5.js";import"./index.7abedeb5.js";import"./iframe.c6698cc2.js";import"./index.a753ffc1.js";import"./index.40f5fcc2.js";import"./jsx-runtime.f5312e59.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/burn-c.png",alt:"Carlos Oliveira"},argTypes:{src:{control:{type:"text"}}}},e={},l={args:{src:void 0}},m=["Default","WithFallback"];export{e as Default,l as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.5f79ac3c.js.map
